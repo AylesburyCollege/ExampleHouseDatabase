@@ -58,4 +58,12 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="ExampleHouseDatabase.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CreateBranchTable.sql" />
+    <None Include="InsertBranches.sql" />
+    <None Include="CreateOwnerTable.sql" />
+  </ItemGroup>
 </Project>
