@@ -65,5 +65,11 @@
     <None Include="CreateBranchTable.sql" />
     <None Include="InsertBranches.sql" />
     <None Include="CreateOwnerTable.sql" />
+    <None Include="CreateTableStaff.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="CreateTableRenter.sql" />
+    <Build Include="CreateTableProperty.sql" />
+    <Build Include="CreateTableViewings.sql" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,14 @@
+﻿CREATE TABLE [dbo].[Property]
+(
+	[PropertyID] NVARCHAR(10) NOT NULL PRIMARY KEY, 
+    [Street] NVARCHAR(20) NOT NULL, 
+    [Area] NVARCHAR(20) NOT NULL, 
+    [City] NVARCHAR(20) NOT NULL, 
+    [PostCode] NVARCHAR(10) NOT NULL, 
+    [Type] NVARCHAR(20) NOT NULL, 
+    [Rooms] INT NOT NULL, 
+    [Rent] SMALLMONEY NOT NULL, 
+    [OwnerID] NVARCHAR(10) NOT NULL, 
+    [StaffID] NVARCHAR(10) NOT NULL, 
+    [BranchID] NVARCHAR(2) NOT NULL
+)
